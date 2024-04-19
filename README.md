@@ -10,7 +10,6 @@ This project contains two parts. In the first part of the project, you need to i
 
 ### Task 1: Requirements of HashTable Class Template
 
-Your implementation of HashTable must be in the namespace of cop4530.
 You must provide the template declaration and implementation in two different files hashtable.h (containing HashTable class template declaration) and hashtable.hpp (containing the implementation of member functions). You must include hashtable.hpp inside hashtable.h as we have done in the previous projects. The two files hashtable.h and hashtable.hpp will be provided to you, which contain some helpful functions that you will need to use in developing the hash table class template.
 You must implement hash table using the technique of chaining with separate lists (separate chaining). That is, the internal data structure of the hash table class template should be a vector of lists. You must use the STL containers for the internal data structure instead of any containers you developed in the previous projects.
 You must at least implement all the interfaces specified below for the HashTable class template.
